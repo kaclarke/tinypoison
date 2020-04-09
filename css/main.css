@@ -1,0 +1,249 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Muli', sans-serif;
+    color: #3c1111;
+    overflow: auto;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    float: left;
+}
+.half-width {
+    width: 590px;
+    float: left;
+}
+.twothirds-width {
+    width: 790px;
+    float: left;
+}
+.third-width {
+    width: 390px;
+    float: left;
+}
+
+
+/***** HEADER *****/
+header {
+    height: 850px;
+    background: url('../img/cabinet1.png');
+}
+
+header h1 {
+    font-family: 'Fondamento', cursive;
+    font-size: 120px;
+    color: #fff5e6;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 0px 0px 15px 10px;
+    margin: 0px;
+}
+
+header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #fff5e6;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 35px;
+    padding: 20px;
+    margin: 15px 0px 205px 50px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    float: left;
+    clear: both;
+}
+header ul li {
+    display: inline;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 36px;
+    border-top: 2px dotted #f79c1d;
+    border-bottom: 2px dotted #f79c1d;
+    padding: 25px;
+    text-align: left;
+}
+header ul li a {
+    text-decoration: none;
+    color: #f79c1d;
+}
+
+
+/***** MAIN *****/
+#portfolio .full-width {
+    background: url('../img/abstract.jpg');
+    background-repeat: none;
+    background-size: cover;
+    height: 1500px;
+    width: 100%;
+}
+
+#portfolio h3 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 44px;
+    text-align: center;
+    margin: 60px 0px 35px 0px;
+}
+
+#portfolio img {
+    border: 3px solid #f79c1d;
+    margin: 30px 5px 0px 300px;
+    padding: 0px;
+}
+
+#portfolio p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-variant: small-caps;
+    color: #3c1111;
+    margin: 0 auto;
+}
+
+
+#about .full-width {
+    background-color: #9c2c2c;
+    height: 330px;
+    width: 100%;
+}
+#about .twothirds-width {
+    margin: 20px 0px 10px 20px;
+    padding: 0px;
+    float: left;
+}
+#about .third-width {
+    float: left;
+}
+#about .third-width #self-img {
+    padding: 0px;
+    margin: 60px 20px 20px 85px;
+    border: 6px solid #3c1111;
+}
+
+#about h3 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 44px;
+    text-align: center;
+    line-height: 16px;
+    padding: 15px;
+    margin: 0px 15px 30px 25px;
+}
+
+#about p {
+    font-size: 17px;
+    text-align: center;
+    margin: 5px 15px 15px 25px;
+}
+#about p span {
+    font-family: 'Ovo', serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+
+#contact .full-width {
+    background: url('../img/sand.jpg');
+    height: 220px;
+    width: 100%;
+}
+#contact h3 {
+    font-family: 'Berkshire Swash', cursive;
+    color: #ffebcc;
+    font-size: 42px;
+    text-align: center;
+    margin: 25px 0px 10px 0px;
+}
+
+#contact ul {
+    color: #ffebcc;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 20px 0px;
+}
+
+#contact ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 auto;
+    padding: 50px 0px 20px 0px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    padding: 10px 0px 10px 50px;
+    margin: 0 auto;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    top: 100%;
+    left: 50%;
+    margin-left: -112px;
+    background-color: none;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-size: 22px;
+    color: #fff5e6;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 10px 0px 0px;
+
+    /* Position the tooltip */
+    position: bottom;
+    z-index: 1;
+} 
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.size_of_img {
+    width: 70px;
+}
+
+
+/***** FOOTER *****/
+#footer .full-width {
+    background: url('../img/sand.jpg');
+    height: 80px;
+    width: 100%;
+}
+
+footer {
+    height: 80px;
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+footer h4 {
+    font-family: 'Ovo', serif;
+    font-size: 22px;
+    color: #3c1111;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+footer h4 span {
+    font-family: 'Ovo', serif;
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #3c1111;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
