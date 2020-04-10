@@ -7,34 +7,36 @@ body {
 
 /***** GRID *****/
 .full-width {
-    width: 1200px;
-    margin: 0 auto;
-    float: left;
+    width: 1274px;
+    margin: 0px;
 }
 .half-width {
     width: 590px;
-    float: left;
+    margin: 0px;
 }
 .twothirds-width {
     width: 790px;
-    float: left;
+    margin: 0px;
 }
 .third-width {
     width: 390px;
-    float: left;
+    margin: 0px;
 }
 
 
 /***** HEADER *****/
 header {
-    height: 850px;
+    border: 1px solid #fff5e6;
     background: url('../img/cabinet1.png');
+    height: 850px;
+    margin: 0px;
+    padding: 0px;
 }
 
 header h1 {
-    font-family: 'Fondamento', cursive;
+    font-family: 'Berkshire Swash', cursive;
     font-size: 120px;
-    color: #fff5e6;
+    color: #4d2e00;
     font-variant: small-caps;
     text-transform: lowercase;
     text-align: center;
@@ -45,7 +47,7 @@ header h1 {
 header h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    color: #fff5e6;
+    color: #4d2e00;
     font-variant: small-caps;
     text-transform: lowercase;
     text-align: center;
@@ -78,11 +80,9 @@ header ul li a {
 
 /***** MAIN *****/
 #portfolio .full-width {
-    background: url('../img/abstract.jpg');
-    background-repeat: none;
-    background-size: cover;
     height: 1500px;
-    width: 100%;
+    background: url('../img/abstract.jpg');
+    border: 1px solid #fff5e6;
 }
 
 #portfolio h3 {
@@ -93,7 +93,6 @@ header ul li a {
 }
 
 #portfolio img {
-    border: 3px solid #f79c1d;
     margin: 30px 5px 0px 300px;
     padding: 0px;
 }
@@ -109,9 +108,9 @@ header ul li a {
 
 
 #about .full-width {
-    background-color: #9c2c2c;
+    border: 1px solid #fff5e6;
+    background: url('../img/oil1.jpg');
     height: 330px;
-    width: 100%;
 }
 #about .twothirds-width {
     margin: 20px 0px 10px 20px;
@@ -130,6 +129,7 @@ header ul li a {
 #about h3 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 44px;
+    color: #fff5e6;
     text-align: center;
     line-height: 16px;
     padding: 15px;
@@ -138,6 +138,7 @@ header ul li a {
 
 #about p {
     font-size: 17px;
+    color: #fff5e6;
     text-align: center;
     margin: 5px 15px 15px 25px;
 }
@@ -149,9 +150,9 @@ header ul li a {
 
 
 #contact .full-width {
-    background: url('../img/sand.jpg');
-    height: 220px;
-    width: 100%;
+    border: 1px solid #fff5e6;
+    background: url('../img/abstract.jpg');
+    height: 200px;
 }
 #contact h3 {
     font-family: 'Berkshire Swash', cursive;
@@ -187,7 +188,6 @@ header ul li a {
     top: 100%;
     left: 50%;
     margin-left: -112px;
-    background-color: none;
     font-variant: small-caps;
     text-transform: lowercase;
     font-size: 22px;
@@ -210,17 +210,16 @@ header ul li a {
 
 /***** FOOTER *****/
 #footer .full-width {
-    background: url('../img/sand.jpg');
+    border: 1px solid #fff5e6;
+    background: url('../img/abstract.jpg');
     height: 80px;
-    width: 100%;
 }
 
 footer {
-    height: 80px;
-    clear: both;
+    height: 90px;
     text-align: center;
     margin: 0 auto;
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
 }
 
 footer h4 {
@@ -245,5 +244,5 @@ footer p {
     color: #3c1111;
     text-align: center;
     margin: 0 auto;
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
 }
